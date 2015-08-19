@@ -1,5 +1,5 @@
 #about {
-    background: #D84315 50% 0 fixed;
+    background: url(../img/gaussfalls.png) 50% 0 fixed;
     height: auto;
     margin: 0 auto;
     width: 100%;
@@ -29,12 +29,12 @@
     color: #fff;
 }
 #contact {
-  background: url(../img/about.png) 50% 0 fixed;
+  background: #039BE5 50% 0 fixed;
   height: auto;
   margin: 0 auto;
   width: 100%;
   position: relative;
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  padding: 100px 0;
+  padding: 250px 0;
   color: #fff;
 }
