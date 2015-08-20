@@ -2,8 +2,8 @@
   Setup up the sections with backgrounds, sizes, and positions.
 */
 #about {
-/*    background: url(../img/gaussfalls.png) 50% 0 fixed; */
-    background: #E53935 50% 0 fixed;
+    background: url(../img/codeback.png) 50% 0 fixed; 
+    /*background: #E53935 50% 0 fixed;*/
     height: auto;
     margin: 0 auto;
     width: 100%;
