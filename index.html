@@ -7,7 +7,7 @@
   <title>Anthony Powell</title>
 
   <!-- bootstrap CSS-->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
 
   <!-- Custom Styling -->
   <link rel="stylesheet" href="css/master.css">
@@ -97,8 +97,32 @@
         <h3>projects done in my spare time.</h3>
         <h3>Here's my <a href="http://www.github.com/cephalization">GitHub</a>.</h3>
       </div>
-      <div class="col-md-4">
-      <div>
+      <div class="col-md-8">
+        <div id="myCarousel" class="carousel" data-ride="carousel" data-interval="false" data-keyboard="true">
+          <!-- indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+          </ol>
+          <!-- Slide Wrappers -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <h3><a href="http://www.deabnet.com">DEABnet</a> (<a href="http://www.github.com/cephalization/deabnet">GitHub</a>)</h3>
+              <p>This project is a long term learning endeavor by my colleagues and I at Michigan Tech University and Oakland University.</p>
+              <p>It is meant to be a joint learning effort for biometrics, machine learning, web development, git, and more.</p>
+              <p>The website was developed and designed by myself and a colleague using HTML/CSS, Twitter's Bootstrap, and git.</p>
+            </div>
+            <div class="item">
+              <h3><a href="http://www.github.com/cephalization/text2site">Text2Site</a></h3>
+              <p>This project was built for <a href="http://www.deabnet.com">DEABnet.com</a> as a way for collaborators to more easily upload blog content but, it can easily be adapted to other websites with template files.</p>
+              <p>It takes plain text as input and wraps the text with "p" tags as well as user defined HTML.</p>
+              <p>GUI and Logic written in Java by me. Optimized by a colleague. Compatible with OSX, Linux, and Windows.</p>
+            </div>
+          </div>
+        </div>
+
+
+      <!-- <div>
         <h3><a href="http://www.deabnet.com">DEABnet</a> (<a href="http://www.github.com/cephalization/deabnet">GitHub</a>)</h3>
         <p>This project is a long term learning endeavor by my colleagues and I at Michigan Tech University and Oakland University.</p>
         <p>It is meant to be a joint learning effort for biometrics, machine learning, web development, git, and more.</p>
@@ -111,7 +135,7 @@
         <p>It takes plain text as input and wraps the text with "p" tags as well as user defined HTML.</p>
         <p>GUI and Logic written in Java by me. Optimized by a colleague. Compatible with OSX, Linux, and Windows.</p>
       </div>
-      <hr>
+      <hr> -->
       </div>
     </div>
   </div>
@@ -132,8 +156,8 @@
 <!-- Bootstrap Javascript
 =========== At the end of file for speed ==========
 -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
 <script src="js/parallax.js"></script>
 <!-- End of Javascript -->
 </body>
