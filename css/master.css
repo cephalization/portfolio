@@ -57,10 +57,10 @@
 a {
   text-decoration: none;
   background-color: inherit;
-  color: inherit;
+  color: #CFD8DC;
 }
 
 a:hover {
-  color: #304FFE;
-  text-decoration: none;
+  color: #CFD8DC;
+  text-decoration: underline;
 }
