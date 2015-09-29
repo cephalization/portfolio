@@ -43,6 +43,9 @@
   padding: 50px 0;
   color: #fff;
 }
+#me {
+  border-radius=50%;
+}
 /*
   Class specific styling
 */
