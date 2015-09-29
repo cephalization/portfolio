@@ -43,9 +43,6 @@
   padding: 50px 0;
   color: #fff;
 }
-#me {
-  border-radius=50%;
-}
 /*
   Class specific styling
 */
@@ -82,4 +79,8 @@ a:hover {
 .carousel-indicators li {
   padding-right: 20px;
   padding-bottom: 20px;
+}
+
+.round {
+  border-radius: 50%;
 }
