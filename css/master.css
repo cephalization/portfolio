@@ -84,3 +84,13 @@ a:hover {
 .round {
   border-radius: 50%;
 }
+
+.certA {
+  height: 200px;
+  width: 200px;
+}
+
+.certB {
+  height: 128px;
+  width: 238px;
+}
